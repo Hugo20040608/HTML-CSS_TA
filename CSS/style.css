@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;900&display=swap");
+.blue {
+  color: blue;
+}
+
+.purple {
+  color: purple;
+}
+
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+#max {
+  -moz-column-span: 10;
+       column-span: 10;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.Google {
+  display: flex;
+  background-color: black;
+}
+div.Google div {
+  font-size: 3rem;
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
